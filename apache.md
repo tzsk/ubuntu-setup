@@ -44,9 +44,11 @@ Now in your browser visit: [http://localhost](http://localhost) and you should s
 
 > NOTE: By default `mod_rewrite` is not enabled. To properly set it up follow the below steps.
 
-Open apache site config file:
+Enable Module & Open apache site config file:
 
 ```bash
+$ sudo a2enmod rewrite
+
 $ subl /etc/apache2/sites-enabled/000-default.conf
 ```
 
