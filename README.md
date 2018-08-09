@@ -6,7 +6,7 @@ In this guide we will install the following packages:
 
 - Apache `2.4`
 - PHP `7.1`
-- MySQL `5.7` (MariaDB)
+- MySQL `5.7`
 - PhpMyAdmin `latest`
 - Composer `latest`
 - GIT `latest`
