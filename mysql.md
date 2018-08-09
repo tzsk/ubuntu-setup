@@ -1,14 +1,14 @@
 # MySQL Installation
 
-In this section we will install `mysql` (MariaDB) in our system. 
+In this section we will install `mysql` in our system. 
 This process is similar for all the ubuntu versions.
 
 [update](_update.md ':include')
 
-Run the following command to install mariadb:
+Run the following command to install mysql:
 
 ```bash
-$ sudo apt-get install mariadb-server
+$ sudo apt-get install mysql-server
 ```
 
 This will ask you for your root password. I strongly recommend we all keep `secret` as the password for our company internally for consistency. Then, confirm the password and it will move forward with the installation.
